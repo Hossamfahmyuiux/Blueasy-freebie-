@@ -1,0 +1,798 @@
+/*font-family: 'Open Sans Condensed', sans-serif;*/
+
+/*Start header*/
+header
+{   
+    background: url(../images/Header/header-img.png) no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}   
+.navbar
+{
+    width: 100%;
+    height: 150px;
+    background-color:#353f47;
+    opacity: 0.7;
+    
+}
+.nav-btn 
+{
+    display: none;
+}
+.navbar .brand img
+{
+    margin-top: 60px;
+    position: absolute;
+    cursor: pointer;
+    float: left;
+    display: inline-block;
+}
+
+.list-unstyled
+{
+	display: flex;
+    float: right;
+}
+.navbar .links li a
+
+{
+    float: left;
+    font-size: 14PX;
+    font-family:'Lato', sans-serif;
+    font-weight: 800;
+    margin-left: 50px;
+    margin-top: 55px;
+    color: #FFF;
+    -webkit-transition:all 0.6s ease-in-out;
+    -moz-transition:all 0.6s ease-in-out;
+    -o-transition:all 0.6s ease-in-out;
+    transition:all 0.6s ease-in-out;
+    
+}
+.navbar .links li a:hover
+{
+    text-decoration: none;
+    color: #4bcaff;
+    border: 1px solid #4bcaff;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 50px;
+}
+
+.header-text1
+{
+    margin-top: 250px;
+}
+
+.header-text1 span
+{
+    color: #FFF;
+    font-size: 42px;
+    font-family:'Lato', sans-serif;
+    font-weight: 100;
+    background-color:#353f47;
+    opacity: 0.7;
+    margin-top: 
+    
+}.header-text2 h1
+{
+    color: #FFF;
+    font-size: 42px;
+    font-family:'Lato', sans-serif;
+    font-weight: 100;
+    background-color:#353f47;
+    opacity: 0.7;
+}
+
+
+/*End header*/
+
+/*Start services*/
+.services
+{
+    background: #4bcaff;
+}
+.services .title h1
+{    font-family:'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    color: #fff;
+    margin-top: 80PX;
+    margin-bottom: 
+    
+}
+.services .title .line
+{
+    width: 51px;
+    height: 10px;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 40PX;
+    -webkit-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.6s ease-in-out;
+    -o-transition:all 0.6s ease-in-out;
+    transition:all 0.6s ease-in-out;
+}
+.services .title .line:hover
+{
+    width: 130px;
+    border-bottom: 2px solid #FFF;
+    margin-bottom: 40PX;
+    
+}
+
+.services .columen .col-title h4
+{
+    font-family:'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    color: #FFF;
+    margin-bottom: 20px;
+    margin-top: 24px;
+    
+    
+}
+.services .columen i
+{
+    font-size: 50px;
+    color: #FFF;
+    
+    
+}
+.services .columen p
+{
+    font-family:'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    color: #fff;
+    line-height: 1.8em;
+    margin-bottom: 80px;
+}
+/*End services*/
+
+
+/*Sart portfolio*/
+.portfolio .port-title-links
+{
+    margin-bottom: 50px;
+}
+.portfolio .port-title-links h1
+{
+    font-family:'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    color: #515f67;
+    margin-top: 80PX;
+   
+}
+.portfolio .port-title-links .line
+{
+    height: 10px;
+    width: 51px;
+    border-bottom: 2px solid #515f67;
+    margin-bottom: 40PX;
+    -webkit-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.6s ease-in-out;
+    -o-transition:all 0.6s ease-in-out;
+    transition:all 0.6s ease-in-out;
+}
+.portfolio .port-title-links .line:hover
+{
+    width: 155px;
+    border-bottom: 2px solid #515f67;
+    margin-bottom: 40PX;
+    
+}
+
+.portfolio .port-title-links li a
+
+{
+    float: right;
+    font-size: 14PX;
+    font-family:'Lato', sans-serif;
+    font-weight: 800;
+    margin-left: 46px;
+    margin-top: 95px;
+    color: #515f67;
+    -webkit-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.6s ease-in-out;
+    -o-transition:all 0.6s ease-in-out;
+    transition:all 0.6s ease-in-out;
+    
+}
+.portfolio .port-title-links a:hover
+{
+    text-decoration: none;
+    color: #4bcaff;
+    border: 1px solid #4bcaff;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 90px;
+}
+.portfolio .port-imgs .img
+{
+    width: 270px;
+    height: 270px;
+    margin: 11px;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+.portfolio .port-imgs .img img
+{
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    transition: all 1s ease-in;
+    
+}
+.portfolio .port-imgs .img span
+{
+    position: absolute;
+    color: #FFF;
+    left: 48px;
+    bottom: 115px;
+    right:0px;
+    margin-left:80px;
+    display: none;  
+    font-family:'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    
+}
+.portfolio .port-imgs .img:hover span
+{
+    display: block;
+    
+}
+.portfolio .port-imgs .img:hover img
+{
+    transform: scale(1.4);
+    transition: all 1s ease-in;
+    filter: brightness(0.2);
+}
+
+.portfolio .port-imgs img
+{
+    margin-bottom: 30px;
+    position: relative;
+    
+    
+}
+.portfolio .port-imgs .add
+{
+    position: absolute;
+}
+.portfolio .port-imgs .add div
+{
+    color: aliceblue;
+}
+
+/*End Portfolio*/
+
+/*Start default section*/
+.default-section 
+{
+    background-color: #515f67;
+    margin-top: 50px;
+}
+
+
+.default-section .paragraph .title h1
+{   font-family:'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    color: #FFF;
+    margin-top: 80PX;
+   
+    
+}
+.default-section .paragraph .title .line
+{
+    height: 10px;
+    width: 51px;
+    border-bottom: 2px solid #FFF;
+    margin-bottom: 40PX;
+    -webkit-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.6s ease-in-out;
+    -o-transition:all 0.6s ease-in-out;
+    transition:all 0.6s ease-in-out;
+}
+
+.default-section .paragraph .title .line:hover
+{
+    width: 3130px;
+    border-bottom: 2px solid #FFF;
+    margin-bottom: 40PX;
+    
+}
+
+.default-section .paragraph .text p
+{
+    font-family:'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    color: #FFF;
+    line-height: 1.8em;
+    margin-right: 100px; 
+    overflow: hidden;
+    margin-bottom: 40px;
+    
+}
+.default-section .visit-btn span a
+{
+    text-decoration: none;
+    color: #353f46;
+    border: 2px solid #353f46;
+    margin-bottom: px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+     -webkit-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.6s ease-in-out;
+    -o-transition:all 0.6s ease-in-out;
+    transition:all 0.6s ease-in-out;
+    
+}
+.default-section .visit-btn span a:hover
+{
+    color: #4bcaff;
+    border: 2px solid #4bcaff;
+    
+}
+
+/* Start Video*/
+.video iframe
+{
+    width: 100%;
+    float: right;
+    height: 100%;  
+    margin-top: 80px;
+    
+        
+    
+}
+.embed-responsive-4by3 {
+    width: 100%;
+    padding: 38%;
+    margin-bottom: 80px;
+}
+/* End Video*/
+
+/*End default section*/
+
+
+/*Start twitter */
+.twitter 
+{
+    background-color: #4bcaff;
+}
+.twitter .title h1
+{   font-family:'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    color: #FFF;
+    margin-top: 80PX;
+    
+    
+}
+.twitter .title .line
+{
+    height: 10px;
+    width: 51px;
+    border-bottom: 2px solid #FFF;
+    margin-bottom: 40PX;
+    -webkit-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.6s ease-in-out;
+    -o-transition:all 0.6s ease-in-out;
+    transition:all 0.6s ease-in-out;
+}
+
+.twitter .title .line:hover
+{
+    width: 130px;
+    border-bottom: 2px solid #FFF;
+    margin-bottom: 40PX;
+    
+}
+.twitter i
+{
+    font-size: 38px;
+    color: #FFF;
+    float: right;
+    margin-top: 80px;
+    
+}
+.twitter i:hover
+{
+    opacity: 0.5;
+    
+}
+
+.twitter .twitte p
+{
+    font-family:'Lato', sans-serif;
+    font-size: 28px;
+    font-weight: 100;
+    color: #FFF;
+    
+}
+.twitter .twitte span
+{
+    font-family:'Lato', sans-serif;
+    font-size: 28px;
+    font-weight: 100;
+    color: #FFF;
+    margin-bottom: 80px;
+}
+.twitter .twitte 
+{
+    margin-bottom: 80px;
+}
+/*End Twitter*/
+
+/*Start about john */
+.about{
+
+    background: url(../images/about-john/about-john.png) no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 65%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.about .title h1
+{   font-family:'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    color: #FFF;
+    margin-top: 80PX;
+    
+    
+}
+.about .title .line
+{
+    height: 10px;
+    width: 51px;
+    border-bottom: 2px solid #FFF;
+    margin-bottom: 40PX;
+    -webkit-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.6s ease-in-out;
+    -o-transition:all 0.6s ease-in-out;
+    transition:all 0.6s ease-in-out;
+}
+
+.about .title .line:hover
+{
+    width: 130px;
+    border-bottom: 2px solid #FFF;
+    margin-bottom: 40PX;
+    
+}
+.about .text1 p
+{
+    font-family:'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    color: #FFF;
+    line-height: 1.8em;
+}
+.about .text2 p
+{
+    font-family:'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    color: #FFF;
+    line-height: 1.8em;
+}
+.about .text3 p
+{
+    font-family:'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    color: #FFF;
+    line-height: 1.8em;
+    margin-top: 38px;
+    margin-left: 10px;
+}
+.about .socail-networks .twitt-icon i
+{
+    font-size: 22px;
+    color: #FFF;
+    display: inline-block;
+    float: left;
+    margin-right:30px;
+    border: 2px solid #FFF;
+    padding: 10px;
+    margin-top: 38px;
+    
+}
+.about .socail-networks .twitt-icon i:hover
+{
+    background-color: #FFF;
+    color: #515f67; 
+
+}
+
+
+/*End about john*/
+/*Start tesmonials*/
+ .testmonials .title h1
+{   font-family:'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    color: #515f67;
+    margin-top: 80PX;
+    
+    
+}
+ .testmonials .title .line
+{
+    height: 10px;
+    width: 51px;
+    border-bottom: 2px solid #515f67;
+    margin-bottom: 40PX;
+    -webkit-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.6s ease-in-out;
+    -o-transition:all 0.6s ease-in-out;
+    transition:all 0.6s ease-in-out;
+}
+
+.testmonials .title .line:hover
+{
+    width: 130px;
+    border-bottom: 2px solid #515f67;
+    margin-bottom: 40PX;
+    
+}
+.testmonials  span
+{
+    font-size: 68px;
+    color: #515f67;
+    float: right;
+    margin-top: 80px;
+    cursor: pointer;
+    
+}
+.testmonials  span:hover
+{
+    opacity: 0.5;
+    
+}
+
+.testmonials .text p
+{
+    font-family:'Lato', sans-serif;
+    font-size: 26px;
+    font-weight: 100;
+    color:#515f67;
+    line-height: 1.8em;
+}
+.testmonials .name span
+{
+    font-family:'Lato', sans-serif;
+    font-size: 26px;
+    font-weight: 100;
+    color:#4bcaff;
+    line-height: 1.8em;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    
+}
+/*End testmoials*/
+
+/*Starat contact us */
+.contact
+{   
+    background: url(../images/contact-us/contact-img.jpg) no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}   
+/*End contact us*/
+/*Start contact us */
+.contact .title h1
+{   font-family:'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    color: #FFF;
+    margin-top: 80PX;
+    
+    
+}
+.contact .title .line
+{
+    height: 10px;
+    width: 51px;
+    border-bottom: 2px solid #FFF;
+    margin-bottom: 40PX;
+    -webkit-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.6s ease-in-out;
+    -o-transition:all 0.6s ease-in-out;
+    transition:all 0.6s ease-in-out;
+}
+
+.contact .title .line:hover
+{
+    width: 130px;
+    border-bottom: 2px solid #FFF;
+    margin-bottom: 40PX;
+    
+}
+.contact .input1 span
+{
+    font-family:'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: #FFF;
+    display: block;
+    margin-bottom: 10px
+}
+.contact .input1 input
+{
+    
+    width: 85%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 10px;
+    background: none;
+    border: 1px solid #FFF;
+    outline-width: 0;
+    
+
+}
+.contact .input1  input:focus,
+    select:focus,
+    textarea:focus,
+    button:focus {
+    outline: none;
+}
+.contact  .text p
+{
+    font-family:'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFF;
+    line-height: 1.8em;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.contact .input2 span
+{
+    font-family:'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: #FFF;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.contact .input2 input
+{
+    width: 85%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 10px;
+    background: none;
+    border: 1px solid #FFF;
+    outline-width: 0;
+    
+
+}
+.contact .input2  input:focus,
+    select:focus,
+    textarea:focus,
+    button:focus {
+    outline: none;
+}
+.contact  .text p
+{
+    font-family:'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFF;
+    line-height: 1.8em;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.contact .textarea span
+{
+    font-family:'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: #FFF;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.contact .textarea textarea
+{
+    width: 90%;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    padding-left: 10px;
+    background: none;
+    border: 1px solid #FFF;
+    outline-width: 0;
+    margin-left: 15px;
+    
+    
+}
+.contact  textarea:focus,
+    select:focus,
+    textarea:focus,
+    button:focus {
+    outline: none;
+}
+.contact .textarea .messege-btn
+{
+    position: absolute;
+    margin-left: 0px;
+}
+.contact .messege-btn span a
+{
+    text-decoration: none;
+    color: #FFF;
+    background-color: #4bcaff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 110px;
+    padding-right: 110px;
+    cursor: pointer;
+    
+}
+/*End contact us*/
+/*Start footer*/
+footer
+{
+    background-color: #353f47;
+}
+footer .site-links li a 
+{   
+    float: left;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color: #515f67;
+    font-family:'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    padding-right: 15px
+    
+}
+footer .site-links li a:hover
+{
+    color: #FFF;
+}
+footer .site-map .copy p
+{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color: #515f67;
+    font-family:'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    float: right;
+}
+
+/*End footer*/

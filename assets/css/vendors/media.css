@@ -1,0 +1,148 @@
+
+/* Smart Phone And Tableets */
+@media(max-width:767px)
+{
+/*Start Header*/
+    
+   .header-text1 
+    {
+        
+        margin-top: 100px;
+        
+    }
+   
+    header .header-text1 span
+    {
+        font-size: 24px;
+        
+    }
+     header .header-text2 h1
+    {
+        font-size: 24px;
+        
+    }
+    header nav:not(.active) .navlist 
+    {
+        display: none;
+    }
+    .nav-btn
+    {
+        position: absolute;
+        background:none;
+        border: none;
+        width: 48px;
+        float: right;
+        margin-top: 60px;
+        position: relative;
+        display: block;
+        
+    }
+    .nav-btn .btn-line
+    {
+        
+        height: 2px;
+        margin-bottom: 6px;
+        background-color: #FFF;
+        
+    }
+    .nav-btn .btn-line:last-child{
+        margin-bottom: 0;
+    }
+/* End Header   */
+    
+    
+/*Start Services    */
+    .services
+    {
+        text-align: center;
+    }
+    .services .line
+    {
+        display: none;
+    }
+     .services .line-xs
+    {
+        display: block;
+    }
+    .services .title
+    {
+        margin-bottom: 80px;
+    }
+    
+/*Start what about john*/
+    .about .title h1
+    {
+        margin-top:80px;
+    }
+    .about
+    {
+    
+    height: 100%;
+    width: 100%;
+    
+    }
+    .about  i
+    {
+        
+    }
+    
+/*Start what about john*/ 
+    
+    .portfolio .port-links  li a
+    {
+        float: left;
+       
+        
+    }
+    
+    footer .site-links li a {
+        display: block;
+        float: left;
+         margin-bottom: 40px;
+    }
+} 
+
+/*End Services*/
+
+
+
+/*Portfolo*/
+.portfolio .port-imgs .img img
+{
+    text-align: center;
+}
+   
+/* Small Screen */
+@media(min-width:768px)and(max-width:991px)   
+{
+    .header-text1
+    {
+        margin-top: 80px;
+    
+    }
+    
+ 
+}
+
+/* Medium Screen */
+@media(min-width:992px)and(max-width:1250px)
+{
+    .header-text1
+    {
+        margin-top: 80px;
+        
+    }
+    
+}
+
+
+/*larg screen*/
+@media(min-width:1250px)
+{
+   .nav-btn
+    {
+        display: none;
+    }
+    
+    
+}
